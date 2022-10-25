@@ -28,6 +28,54 @@
   color: #61dafb;
 }
 
+ul {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+li {
+  margin: 20px 0;
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+}
+
+li span {
+  padding: 8px;
+}
+
+li button {
+  background: #f2360c;
+  color: #fff;
+  border: none;
+  padding: 10px;
+  cursor: pointer;
+}
+
+
+li.high {
+  border: 2px solid #1a681e;
+  color: #1a681e;
+}
+
+li.low {
+  border: 2px solid #f2360c;
+}
+
+input[type="text"] {
+  padding: 10px;
+  width: 50%;
+  margin:5px;
+}
+button, input[type="submit"]{
+  padding: 10px;
+  background: #000;
+  color: #fff;
+  cursor: pointer;
+  border: 1px solid #000;
+}
+
+
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
